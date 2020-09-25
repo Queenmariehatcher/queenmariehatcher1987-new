@@ -1,0 +1,143 @@
+{
+  "@context" : {
+    "td": "https://www.w3.org/2019/wot/td#",
+    "jsonschema": "https://www.w3.org/2019/wot/json-schema#",
+    "wotsec": "https://www.w3.org/2019/wot/security#",
+    "hctl": "https://www.w3.org/2019/wot/hypermedia#",
+    "schema": "http://schema.org/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "htv": "http://www.w3.org/2011/http#",
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "id": "@id",
+    "properties" : {
+      "@id" : "td:hasPropertyAffordance",
+      "@type" : "@id",
+      "@container": "@index"
+    },
+    "actions" : {
+      "@id" : "td:hasActionAffordance",
+      "@type" : "@id",
+      "@container": "@index"
+    },
+    "events" : {
+      "@id" : "td:hasEventAffordance",
+      "@type" : "@id",
+      "@container": "@index"
+    },
+    "security" : {
+      "@id" : "td:hasSecurityConfiguration",
+      "@type" : "@id",
+      "@container": "@set"
+    },
+    "securityDefinitions" : {	
+      "@id" : "td:securityDefinitions",	
+      "@type" : "@id",
+      "@container": "@index"
+    },
+    "Thing" : {
+      "@id" : "td:Thing"
+    },
+    "EventAffordance" : {
+      "@id" : "td:EventAffordance"
+    },
+    "name" : {
+      "@id" : "td:name"
+    },
+    "created" : {
+      "@id" : "dct:created",
+      "@type": "xsd:dateTime"
+    },
+    "modified" : {
+      "@id" : "dct:modified",
+      "@type": "xsd:dateTime"
+    },
+    "observable" : {
+      "@id" : "td:isObservable",
+      "@type" : "xsd:boolean"
+    },
+    "VersionInfo" : {
+      "@id" : "td:VersionInfo"
+    },
+    "PropertyAffordance" : {
+      "@id" : "td:PropertyAffordance"
+    },
+    "forms" : {
+      "@id" : "td:hasForm",
+      "@type" : "@id",
+      "@container": "@set"
+    },
+    "version" : {
+      "@id" : "td:versionInfo",
+      "@type" : "@id"
+    },
+    "links" : {
+      "@id" : "td:hasLink",
+      "@type" : "@id",
+      "@container": "@set"
+    },
+    "uriVariables" : {
+      "@id" : "td:hasUriTemplateSchema",
+      "@container": "@index"
+    },
+    "safe" : {
+      "@id" : "td:isSafe"
+    },
+    "idempotent" : {
+      "@id" : "td:isIdempotent"
+    },
+    "instance": {
+      "@id": "td:instance"
+    },
+    "InteractionAffordance" : {
+      "@id" : "td:InteractionAffordance"
+    },
+    "ActionAffordance" : {
+      "@id" : "td:ActionAffordance"
+    },
+    "input" : {
+      "@id" : "td:hasInputSchema",
+      "@type" : "@id"
+    },
+    "output" : {
+      "@id" : "td:hasOutputSchema",
+      "@type" : "@id"
+    },
+    "subscription" : {
+      "@id" : "td:hasSubscriptionSchema",
+      "@type" : "@id"
+    },
+    "data" : {
+      "@id" : "td:hasNotificationSchema",
+      "@type" : "@id"
+    },
+    "cancellation" : {
+      "@id" : "td:hasCancellationSchema",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "dct:description"
+    },
+    "descriptions" : {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "title" : {
+      "@id" : "dct:title"
+    },
+    "titles" : {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "support": {
+      "@id" : "td:supportContact"
+    },
+    "unit": {
+      "@id" : "schema:unitCode",
+      "@type": "@vocab"
+    }
+  }
+}
